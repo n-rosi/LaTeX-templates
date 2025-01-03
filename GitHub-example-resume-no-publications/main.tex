@@ -1,0 +1,137 @@
+\documentclass{template}		
+%%% Begin Document
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\header{pictures/profile-picture.png}
+{Name Surname}
+{Curriculum Vitae}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% contact sections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Contact information
+\NewPart{Key}{}
+\hspace{1.5cm}
+\begin{minipage}{0.6\textwidth}
+    \personalinfoblockLeft{dd/mm/yyyy, Country}
+    {female}
+    {+1 234 567 890 }
+    {48 Rue du Cheminée, 123, St. Genis, France}
+\end{minipage}
+\hspace{-2cm}
+\begin{minipage}{0.5\textwidth}
+    \personalinfoblockRight{\href{mailto:example@gmail.com}{example@gmail.com}}
+    {\href{https://github.com/example}{link to profile}}{\href{https://www.linkedin.com/in/example/}{link to profile}}{\href{https://www.researchgate.net/profile/example}{link to profile}}
+\end{minipage}
+
+%%% Skills
+\NewPart{Skills}{}
+
+\SkillsEntry{Languages}{Italian (Native), English (C2), Spanish (A2).}
+\SkillsEntry{Software}{Python, C, Fortran, MATLAB, Excel, LaTeX, Isaac-Sim, ROS2, MCNP6.}
+\SkillsEntry{Licenses}{A1, A2, B.}
+
+%%% Work experience
+\NewPart{work experience}{}
+\workEntry{Sept 2024-Now}{High-Tech Ltd (HTL)}{City, Country}{Senior Data Scientist}{
+\begin{entryList}
+    \workItem Project management Quantum Computing activities for the section. 
+    \workItem Development of computer vision algorithms for healthcare applications  based on Machine Learning.
+    \workItem Support in writing technology dossier; part of Big-Data Expert’s Network. 
+    \workItem Intern supervision and general IT support.
+\end{entryList}
+}
+\newline
+\workEntryDouble{Sept 2023 - Aug 2024}{Global Company SME (GC)}{City, Country}{Junior Data Scientist}{
+\begin{entryList}
+    \workItem Code development of big-data cleanings pipelines.
+    \workItem Development of Neural Network models for sentiment analysis in working contexts.
+    \workItem Development of AI-algorithm for scheduling resource optimization.
+    \workItem Multi-GPU parallelization for neural network training on large sentiment analysis datasets.
+\end{entryList}
+}
+{Big-Data Specialists Team Member}
+{
+\begin{entryList}
+    \workItem Perform exploratory data analysis to identify trends, anomalies, and correlations.  
+    \workItem Build and maintain data pipelines to automate data processing workflows.  
+    \workItem Collaborate with cross-functional teams to define and refine data requirements.  
+    \workItem Implement machine learning models to predict outcomes and improve decision-making processes.   
+\end{entryList}
+}
+\newline
+\workEntry{Nov 2022 - Aug 2023}{University of Data (UoD)}{City, Country}{Research Assistant}{
+\begin{entryList}
+    \workItem Develop data-driven and PINNs models to accelerate simulations.
+    \workItem Parallelization of Machine Learning models training on large CPU computer cluster in shared memory. 
+    \workItem Producing documentation.
+\end{entryList}
+}
+\newline
+\workEntry{Mar - Oct 2021}{Large Laboratory of Data (LLoD)}{City, Country}{Intern}{
+\begin{entryList}
+    \workItem Collect, preprocess, and validate raw datasets from multiple sources to ensure data quality.  
+    \workItem Design and implement algorithms for data analysis and pattern recognition.  
+    \workItem Generate detailed reports and visualizations to communicate insights to stakeholders.  
+    \workItem Develop and optimize database queries to support data retrieval and analysis workflows.  
+\end{entryList}
+}
+
+%%% Education
+\NewPart{education}{}
+\educationEntry{Mar 2020 - Oct 2022}{MSc in Data Science and Artificial Intelligence}{University Name}{GPA 4.0/4.0}{Acquired in-depth knowledge in Data Analysis, Machine Learning, Statistical Modeling, Computational Techniques, and Big Data Processing. Final project focused on performance evaluation of advanced algorithms for high-throughput data systems, contributing to the optimization of workflows in large-scale data environments.}
+\newline
+\educationEntry{Sept 2016 - Feb 2020}
+{BSc in Data Science}
+{University Name}{GPA 4.0/4.0}
+{Acquired a strong foundation in Mathematical Analysis, Linear Algebra, Probability Theory, Statistical Methods, Fundamentals of Machine Learning, Data Processing, and Programming. Final project focused on the development and evaluation of adaptive neural network models for analyzing and predicting patterns in periodic datasets.}
+\newline
+
+%%% Extracurricular activities
+\NewPart{Extracurricular activities}{} 
+\extracurricularEntry{Conference Speaker}{Big-Data National Academy, City.}{Nov 2024}{Delivered a talk titled "Applications of Machine Learning in Data Science" as a speaker at the International Conference on Data Science and Machine Learning in Technology and Innovation. \href{https://example.com/ai-conference/programme/}{Link to the programme.}}
+\extracurricularEntry{Data Driven Neural Networks Summer School}{University Name}{June 2023}{Assisted in organizing a two-week Data Science workshop for graduate students, handling tasks such as website management, coordinating administrative activities, and providing technical support for participants with software tools and project tasks. \href{https://example.com/}{Link to the certificate.}}
+\extracurricularEntry{Small-Data Hackathon}{online}{Jan 2023}{Online participation in the annual National hackathon about small dataset. The challenge requested the encoding of the MNIST dataset in quantum circuits and subsequent
+realization of a classification model using the qiskit library. \href{https://exaple.com/}{Link to the certificate.}
+}
+\extracurricularEntry{Physics Data Summer School}{University Name}{July 2019}{One-week summer program for highly motivated students covering a broad spectrum of topics in data science, from foundational theories to practical applications in various industries, including healthcare and finance.}
+
+%%% Awards
+\NewPart{Awards}{}
+\awardsEntry{NIfMD prize}{Name of the Institution}{2022/2023}{Received the Data Science Excellence Award for an outstanding master’s thesis in the field of advanced data analysis techniques, focusing on the development and application of algorithms that contribute to the verification of scientific models or the improvement of measurement technologies. \href{https://www.example.com/}{Link to the article.}}
+\awardsEntry{DSS scholarship}{Name of the Institution}{2020/2021}{Awarded the merit-based Data Science Scholarship to access the "Tech Innovation Hub" at the Merit College of Advanced Studies during master's studies in Data Science. \href{https://example.com/}{Link to the agreement.}}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
