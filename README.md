@@ -12,11 +12,12 @@ Welcome to the LaTeX Templates Repository, a collection of professional LaTeX te
 
 ```
 /latex-templates
-├── cv_with_publications.tex      # LaTeX template for CV with publications
-├── cv_no_publications.tex        # LaTeX template for CV without publications
-├── publications_list.tex         # LaTeX template for publications list
-├── README.md                     # Repository documentation
-└── examples/                     # Examples of the compiled templates
+├── cv_with_publications.tex      # 📝 LaTeX template for CV with publications
+├── cv_no_publications.tex        # 📝 LaTeX template for CV without publications
+├── publications_list.tex         # 📝 LaTeX template for publications list
+├── README.md                     # 📜 Repository documentation
+└── examples/                     # 📚 Examples of the compiled templates
+Examples of the compiled templates
     ├── cv_with_publications.pdf
     ├── cv_no_publications.pdf
     └── publications_list.pdf
@@ -49,3 +50,15 @@ Customize the template with your details:
 - Change the icons color and shapes (find here a comprehensive list of icons and how to use them [fontawesome](https://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf), [academicons](https://mirror.las.iastate.edu/tex-archive/fonts/academicons/academicons.pdf)).
 
 Compile the .tex file into a PDF using your preferred LaTeX toolchain.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to:
+
+1. Fork this repository.
+2. Make your changes.
+3. Submit a pull request.
+
+### 🌟 Acknowledgments
+
+Special thanks to the LaTeX community for their continuous support and resources.
