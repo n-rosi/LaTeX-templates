@@ -1,4 +1,4 @@
-# LaTex Templates
+# 📜 LaTex Templates
 
 Welcome to the LaTeX Templates Repository, a collection of professional LaTeX templates to help you showcase your work and publications effectively. This repository includes three customizable templates:
 
@@ -8,7 +8,7 @@ Welcome to the LaTeX Templates Repository, a collection of professional LaTeX te
 
 - **Publications List.** A standalone template for listing and formatting your publications.
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```
 /latex-templates
