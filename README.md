@@ -62,3 +62,4 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ### 🌟 Acknowledgments
 
 Special thanks to the LaTeX community for their continuous support and resources.
+Use of OpenAI's ChatGPT (GPT-4-turbo) for assistance in drafting this README documentation.
