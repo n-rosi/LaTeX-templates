@@ -22,15 +22,15 @@ Welcome to the LaTeX Templates Repository, a collection of professional LaTeX te
     └── publications_list.pdf
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 💻 Prerequisites
 
 To use these templates, you need:
 - LaTeX distribution: Install TeX Live, MikTeX, or Overleaf for online editing.
 - Text Editor: Use TeXworks, Visual Studio Code, or any LaTeX-compatible editor.
 
-### How to Use
+### ✏️ How to Use
 
 Clone or download this repository:
 
