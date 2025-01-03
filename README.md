@@ -21,3 +21,31 @@ Welcome to the LaTeX Templates Repository, a collection of professional LaTeX te
     ├── cv_no_publications.pdf
     └── publications_list.pdf
 ```
+
+## Getting Started
+
+### Prerequisites
+
+To use these templates, you need:
+- LaTeX distribution: Install TeX Live, MikTeX, or Overleaf for online editing.
+- Text Editor: Use TeXworks, Visual Studio Code, or any LaTeX-compatible editor.
+
+### How to Use
+
+Clone or download this repository:
+
+` git clone https://github.com/your-username/latex-templates.git `
+
+Navigate to the desired template:
+
+` cd latex-templates `
+
+Open the .tex file in your LaTeX editor.
+
+Customize the template with your details:
+
+- Replace placeholder text with your information.
+- Add, modify, or remove sections as needed.
+- Change the icons color and shapes (find here a comprehensive list of icons and how to use them [fontawesome](https://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf), [academicons](https://mirror.las.iastate.edu/tex-archive/fonts/academicons/academicons.pdf)).
+
+Compile the .tex file into a PDF using your preferred LaTeX toolchain.
